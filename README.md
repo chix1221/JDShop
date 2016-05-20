@@ -1,2 +1,5 @@
 # hello-world
-Just try
+
+Hi Humans!
+
+I'm Forrest, I like PHP and web working, and I enjoy it.
