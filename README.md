@@ -2,4 +2,4 @@
 
 Hi Humans!
 
-I'm Forrest, I like PHP and web working, and I enjoy it.
+I'm Forrest, I like Python, PHP and Web, and I enjoy it.
