@@ -1,5 +1,2 @@
-# hello-world
-
-Hi Humans!
-
-I'm Forrest, I like Python, PHP and Web, and I enjoy it.
+这里面放了三个之前用PHP写的小项目，功能不多，估计还有很多BUG。
+有两个项目是面向过程的，一个是面向对象的。
