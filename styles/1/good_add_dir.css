@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+#photo {
+	width: auto;
+	height: 400px;
+	border: 2px solid #ccc;
+	font-size: 12px;
+}
+#photo h2 {
+	text-indent: 0;
+	text-align: center;
+}
+#photo dl {
+	width: 300px;
+	height: 240px;
+	margin: 20px auto;
+	padding: 20px 0 0 10px;
+}
+#photo dl dd {
+	margin: 10px;
+}
+#photo dl dd input.text {
+	width: 180px;
+	height: 20px;
+}
+#photo dl dd#pass {
+	display: none;
+}
+#photo dl dd textarea {
+	width: 180px;	
+	height: 100px;
+}
+#photo dl dd input.submit {
+	margin: 0 0 0 100px;
+	cursor: pointer;
+}

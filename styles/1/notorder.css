@@ -1,0 +1,94 @@
+#buycar h2 {
+	text-align: center;
+	background: #eee;
+}
+#buycar {
+	width: 960px;
+	height: auto;
+}
+#buycar p.line {
+	border-bottom: 1px solid #ccc;
+	margin: 20px 20px;
+}
+#buycar p.count {
+	background: #eee;
+}
+#buycar dl {
+	border: 1px solid #ccc;
+	margin: 20px 0;
+}
+#buycar dl dt {
+	height: 30px;
+	margin: 10px 20px;
+	font-weight: bold;
+}
+#buycar dl dd {
+	height: auto;
+	margin: 10px 30px;
+	color: #666;
+}
+#buycar dl dd input {
+	
+}
+#buycar dl dd img {
+	width: 100px;
+	height: 100px;
+}
+#buycar dl dd a {
+	text-decoration: none;
+	color: #666;
+}
+#buycar dl dd a:hover {
+	color: #f60;
+}
+#buycar dl dd span.message {
+	float: right;
+}
+#buycar dl dd.order {
+	margin: 5px 50px;
+	padding: 5px 0;
+	background: #fef;
+}
+#buycar dl dd.order a {
+
+}
+#buycar dl dd.order span {
+	height: 60px;
+	padding: 0 50px;
+}
+#buycar dl dd.order span.goodname a {
+	float: right;
+	width: 400px;
+	padding: 50px 50px 0 0;
+}
+#buycar dl dd.order span.right {
+	width: 50px;
+	float: right;
+	padding: 50px 50px 0 0;
+}
+#buycar form div.bottom {
+	width: 960px;
+	height: 70px;
+	line-height: 30px;
+	background: #eee;
+	text-align: center;
+	font-size: 12px;
+	color: #666;
+}
+#buycar form div.bottom p.count {
+	font-size: 14px;
+	font-weight: bold;
+	color: red;
+}
+#buycar form div.button input {
+	width: 120px;
+	height: 40px;
+	margin: 20px;
+	font-weight: bold;
+	float: right;
+	color: #fff;
+	background: #E43E40;
+}
+#buycar form div.button input:hover {
+	background: #EE4E4E;	
+}

@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+#photo {
+	width: auto;
+	height: auto;
+	border: 2px solid #ccc;
+	font-size: 12px;
+}
+#photo h2 {
+	text-indent: 0;
+	text-align: center;
+}
+#photo dl.detail {
+	text-align: center;
+	margin: 20px;
+}
+#photo dl.detail dt img {
+	width: 350px;
+	float: left;
+}
+#photo dl.detail dd {
+	width: 500px;
+	padding: 20px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #aaa;
+	float: right;
+}
+#photo dl.detail dd span {
+	color: #f60;
+}
+#photo dl.detail dd a {
+	color: #f60;
+	text-decoration: none;
+}
+#photo dl.detail dd a:hover {
+	color: red;
+	text-decoration: underline;
+}
+#photo p#line {
+	width: 95%;
+	height: 10px;
+	clear: both;
+	border-bottom: 1px dashed #999;
+	padding: 5px 20px 0 5px;
+}

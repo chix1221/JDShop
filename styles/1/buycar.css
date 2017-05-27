@@ -1,0 +1,61 @@
+@CHARSET "UTF-8";
+#buycar {
+	width: 960px;
+	height: auto;
+	font-size: 13px;
+}
+#buycar h2 {
+	text-align: center;
+}
+#buycar table {
+	width: 960px;
+	margin: 10px auto;
+	text-align: center;
+	background: #ccc;
+}
+#buycar table th {
+	background: #fff;
+	height: 25px;
+	line-height: 25px;
+	color: #666;
+}
+#buycar table td {
+	background: #fff;
+	height: 100px;
+	line-height: 25px;
+}
+#buycar table td a {
+	text-decoration: none;
+	color: #333;
+}
+#buycar table td a:hover {
+	text-decoration: underline;
+	color: #f60;
+}
+#buycar table td input {
+	width: 50px;
+}
+#buycar table td img {
+	height: 80px;
+	width: 80px;
+	float: left;
+	margin: 0 0 0 10px;
+}
+#buycar table td.good {
+	width: 500px;
+}
+#buycar table td.good span {
+	margin: 10px;
+}
+#buycar table td.per {
+	width: 100px;
+}
+#buycar table td.number {
+	width: 100px;
+}
+#buycar table td.count {
+	width: 100px;
+}
+#buycar table td.delete {
+	width: 80px;
+}

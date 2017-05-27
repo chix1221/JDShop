@@ -1,0 +1,218 @@
+@CHARSET "UTF-8";
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	width: 960px;
+	margin: 0 auto;
+	background: #fff;
+}
+#header {
+	width: auto;
+	height: 150px;
+	border: 2px solid #ccc;
+	margin: 10px 0;
+	background: #eee;
+}
+#header h1 {
+	font-size: 50px;
+	text-align: center;
+	margin: 20px;
+	color: red;
+}
+#header h1 a {
+	display: block;
+	text-decoration: none;
+}
+#header ul {
+	text-align: right;
+	padding: 10px 50px 0 0;
+	color: red;
+}
+#header ul li {
+	display: inline;	/*垂直居中*/
+}
+#header ul li a {
+	text-decoration: none;
+	color: #333;
+}
+#header ul li a:hover {
+	text-decoration: underline;
+	color: #f00;
+}
+h2 {
+	font-size: 14px;
+	background: #eee;
+	height: 25px;
+	line-height: 25px;	
+}
+
+#footer {
+	clear: both;	/*处理重合*/
+	width: auto;
+	height: 60px;
+	text-align: center;
+	padding: 10px 0 0 0;
+}
+#footer p {
+	font-size: 12px;
+	padding: 5px 0 0 0;
+	letter-spacing: 1px;
+	text-align: center;
+}
+#footer p span {
+	color: #06f;	/*浅蓝色*/
+}
+
+
+#member {
+	width: auto;
+	height: 600px;
+	border: 2px solid #ccc;
+	font-size: 12px;
+}
+#member h2 {
+	text-indent: 0;
+	text-align: center;
+}
+#member #member_sidebar {
+	width: 300px;
+	height: 540px;
+	border: 2px dashed #ccc;
+	margin: 15px;
+	font-size: 16px;
+	float: left;
+}
+#member #member_sidebar a {
+	text-decoration: none;
+	color: black;
+}
+#member #member_sidebar #account {
+	height: 90px;
+	background: #eee;
+	margin: 15px;
+	text-align: center;
+}
+#member #member_sidebar #account dl {
+	margin: 5px 0 0 0;
+}
+#member #member_sidebar #account dt {
+	height: 30px;
+	background: #ccc;
+	padding: 5px 0 5px 0;
+}
+
+#member #member_sidebar #account dd {
+	height: 30px;
+	background: #eee;
+	padding: 5px 0 0 0;
+}
+#member #member_sidebar #account dd:hover {
+	background: #aaa;
+}
+#member #member_sidebar #good {
+	height: 150px;
+	background: #eee;
+	margin: 40px 15px 0 15px;
+	text-align: center;	
+}
+#member #member_sidebar #good dt {
+	height: 30px;
+	background: #ccc;
+	padding: 5px 0 0 0;
+}
+#member #member_sidebar #good dd {
+	height: 30px;
+	background: #eee;
+	padding: 5px 0 0 0;
+}
+#member #member_sidebar #good dd:hover {
+	background: #aaa;
+}
+#member #member_sidebar #other {
+	height: 150px;
+	background: #eee;
+	margin: 40px 15px 0 15px;
+	text-align: center;	
+}
+#member #member_sidebar #other dt {
+	height: 30px;
+	background: #ccc;
+	padding: 5px 0 0 0;
+}
+#member #member_sidebar #other dd {
+	height: 30px;
+	background: #eee;
+	padding: 5px 0 0 0;
+}
+#member #member_sidebar #other dd:hover {
+	background: #aaa;
+}
+#member #member_main {
+	width: 580px;
+	height: 540px;
+	border: 2px dashed #ccc;
+	margin: 15px;	
+	float: right;
+}
+
+/*分页模块*/
+#page_num {
+	height: 20px;
+	clear: both; 
+	background: 20px;
+	position: relative;
+	padding: 20px 55px;
+	float: right;
+}
+#page_num ul {
+	height: 20px;
+	list-style: none;
+}
+#page_num ul li {
+	float: left;	
+	width: 26px;
+	height: 20px;
+}
+#page_num ul li a {
+ 	display: block;	
+	width: 20px;
+	height: 20px;
+ 	line-height: 20px;
+ 	border: 1px solid #333;
+ 	text-align: center;
+ 	text-decoration: none;
+ 	background: gray;
+}
+#page_num ul li a.selected {
+	background: red;
+}
+#page_num ul li a:hover {
+	background: red;
+}
+
+#page_text {
+	width: 480px;
+	height: 20px;
+	clear: both;
+	font-size: 16px;
+	text-align: center;	
+	padding: 30px 240px;
+}
+#page_text ul {
+	list-style: none;
+
+}
+#page_text ul li {
+	display: block;
+	float: left;
+	height: 20px;
+	padding: 0 5px;
+}
+#page_text ul li a {
+	text-decoration: none;
+}
+#page_text ul li a:hover {
+	color: green;
+}

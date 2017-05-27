@@ -1,0 +1,58 @@
+#order {
+	width: 960px;
+	height: auto;
+	background: #fff;
+	border: 1px solid #eee;
+	font-size: 12px;
+	color: #666;
+}
+#order h2 {
+	text-align: center;
+	background: #eee;
+}
+#order p.line {
+	border-bottom: 1px solid #ccc;
+	margin: 20px 20px;
+}
+#order dl {
+	width: 90%;
+	border: 1px solid #ccc;
+	margin: 20px 0 20px 45px;
+}
+#order dl dt {
+	height: 30px;
+	line-height: 30px;
+	background: #eee;
+}
+#order dl dt span {
+	margin: 0 0 0 10px;
+}
+#order dl dd {
+	height: auto;
+	margin: 10px 30px;
+	color: #666;
+}
+#order dl dd img {
+	width: 100px;
+	height: 100px;
+}
+#order dl dd a {
+	text-decoration: none;
+	color: #666;
+}
+#order dl dd a:hover {
+	color: #f60;
+}
+#order dl dd span.goodname a {
+	float: right;
+	width: 200px;
+	padding: 50px 50px 0 0;
+}
+#order dl dd span.right {
+	width: 70px;
+	float: right;
+	padding: 50px 50px 0 0;
+}
+#order dl dd span.total {
+	margin: 0 0 0 680px;
+}

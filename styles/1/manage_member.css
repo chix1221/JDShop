@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+#member #member_main table {
+	width: 90%;
+	margin: 10px auto;
+	text-align: center;
+	background: #ccc;
+}
+#member #member_main table th, #member #member_main table td {
+	background: #fff;
+	height: 25px;
+	line-height: 25px;
+}
+#member #member_main table td a {
+	text-decoration: none;
+	color: #333;
+}
+#member #member_main table td a:hover {
+	text-decoration: underline;
+}
+#page_text {
+	padding: 30px 120px;
+}

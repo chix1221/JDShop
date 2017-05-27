@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+#member #member_main dl {
+	width: 550px;
+	margin: 20 auto;
+	font-size: 16px;
+}
+#member #member_main dl dd {
+	border-bottom: 1px dashed #999;
+	margin: 8px;
+	padding: 10px;
+}
+#member #member_main dl dd input.text {
+	width: 220px;
+	height: 25px;
+	border: 1px dashed #333;
+	background: #fff;
+}
+#member #member_main dl dd input.yzm {
+	width: 60px;
+}
+#member #member_main dl dd img#vcode {
+	position: relative;
+	top: 8px;
+	left: 15px;
+}
