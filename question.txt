@@ -1,0 +1,33 @@
+1.登录生成cookie有个问题
+2.history.back()的返回机制问题
+
+
+mysqli->affected_rows //影响行数,查询结果存在了也影响
+
+
+$result = $mysqli->query("");
+$result->num_rows; //结果集中的行数
+
+
+
+
+********************************
+操作数据库
+********************************
+1.查询sql语句(返回一个结果集)
+$result = $mysqli->query($sql);
+2.(返回上一个$mysqli->query()语句的影响行数)
+$mysqli->affected_rows;
+3.(返回一个索引数组)
+$rows == $result->fetch_assoc();
+4.(返回结果集中的行数)
+$result->num_rows;
+
+
+5.
+"select * where id in()";
+
+
+6.
+implode('', string); //将数组分割成字符串
+explode('', string); //将字符串分割成数组
