@@ -4,3 +4,6 @@
 ### 使用方法
 - 1.将 README 目录中的 sql 文件导入到你本地的 MySQL数据库中去
 - 2.并在 includes/mysql.func.php 文件中配置你本机的 MySQL数据库密码
+
+### 项目查看
+[点击链接查看](http://www.zhhgao.com/Shop)
